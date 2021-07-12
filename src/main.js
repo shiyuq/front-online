@@ -1,0 +1,30 @@
+import Vue from 'vue'
+import App from './App.vue'
+import router from './router'
+import store from './store'
+
+import Antd from 'ant-design-vue'
+import 'ant-design-vue/dist/antd.css' // or 'ant-design-vue/dist/antd.less'
+import 'normalize.css/normalize.css'
+import '@/styles/basic.scss'
+// import { removeLoadingAnimate } from '@/utils/util'
+import fontawesome from '@fortawesome/fontawesome'
+import solid from '@fortawesome/fontawesome-free-solid'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+fontawesome.library.add(solid)
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)
+
+Vue.config.productionTip = false
+
+Vue.use(Antd)
+
+new Vue({
+  router,
+  store,
+  created () {
+    // removeLoadingAnimate('preloadingWrapper')
+  },
+  render: h => h(App)
+}).$mount('#app')
