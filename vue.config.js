@@ -19,6 +19,15 @@ module.exports = {
   chainWebpack: config => {
     const types = ['vue-modules', 'vue', 'normal-modules', 'normal']
     types.forEach(type => addStyleResource(config.module.rule('scss').oneOf(type)))
+    const externals = {
+      vue: 'Vue',
+      // router: 'vueRouter',
+      vuex: 'Vuex',
+      _: 'lodash',
+      // 'ant-design-vue': 'antDesignVue',
+      axios: 'axios'
+    }
+    config.externals(externals)
   },
 
   devServer: {
@@ -32,7 +41,9 @@ module.exports = {
         changeOrigin: true
       }
     }
-  }
+  },
+
+  productionSourceMap: false
 }
 
 function addStyleResource (rule) {
