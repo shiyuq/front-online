@@ -1,4 +1,4 @@
-# onlinemarket
+# front-online
 
 ## Project setup
 ```
