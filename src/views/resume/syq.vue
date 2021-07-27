@@ -14,6 +14,7 @@
           </div>
           <ul>
             <li><label>个人信息</label><span>施雨强 / 男 / 24岁</span></li>
+            <li><label>教育经历</label><span>南京航空航天大学</span></li>
             <li><label>英语水平</label><span>CET-6</span></li>
             <li><label>专业领域</label><span>计算机科学与技术</span></li>
           </ul>
@@ -45,23 +46,6 @@
         </div>
       </div>
       <div class="main-inner">
-        <div class="part">
-          <div class="head">
-            <i class="fa fa-graduation-cap fa-fw"></i>
-            <span class="head-name">教育经历</span>
-          </div>
-          <div class="header">
-            <ul>
-              <li>
-                <span>南京航空航天大学 - 计算机科学与技术</span>
-                <span>2015.09 - 2019.06</span>
-              </li>
-            </ul>
-          </div>
-          <div class="user-content">
-            <p>专业排名前30。期间获得过多次二等奖学金和三等奖学金，以及两次国家励志奖学金，在校期间参与过学校的辩论赛、地铁志愿活动、帮助同学补习功课、大学生创新活动、自己组办过一些会议和小型的活动等等</p>
-          </div>
-        </div>
         <div class="part">
           <div class="head">
             <i class="fa fa-terminal"></i>
