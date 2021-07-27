@@ -57,10 +57,15 @@ const routes = [
     name: 'Login',
     component: () => import('../views/Login.vue')
   },
+  // {
+  //   path: '/shiyuq',
+  //   name: 'shiyuq',
+  //   component: () => import('../views/resume/shiyuq.vue')
+  // },
   {
     path: '/shiyuq',
     name: 'shiyuq',
-    component: () => import('../views/resume/shiyuq.vue')
+    component: () => import('../views/resume/syq.vue')
   }
 ]
 

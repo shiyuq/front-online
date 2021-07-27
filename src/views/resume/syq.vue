@@ -26,7 +26,7 @@
           <ul>
             <li><label>手机</label><a class="phone-green" href="tel:15298377308">15298377308</a></li>
             <li><label>邮箱</label><a class="phone-green" href="https://mail.qq.com/">1543082564@qq.com</a></li>
-            <li><label>个人主页</label><a class="phone-green" href="https://www.symboisis.icu">www.symboisis.icu</a></li>
+            <li><label>个人主页</label><a class="phone-green" href="https://juejin.cn/user/2700056290404541">掘金-shiyuq</a></li>
             <li><label>Github</label><a class="phone-green" href="https://github.com/shiyuq">github.com/shiyuq</a></li>
           </ul>
         </div>
@@ -36,13 +36,11 @@
             <span class="head-name">技能点</span>
           </div>
           <ul>
-            <li><label>HTML5</label><span><progress value="80" max="100"></progress></span></li>
-            <li><label>CSS3</label><span><progress value="70" max="100"></progress></span></li>
             <li><label>JavaScript</label><span><progress value="90" max="100"></progress></span></li>
-            <li><label>python</label><span><progress value="80" max="100"></progress></span></li>
             <li><label>vue.js</label><span><progress value="95" max="100"></progress></span></li>
-            <li><label>django</label><span><progress value="90" max="100"></progress></span></li>
-            <li><label>小程序</label><span><progress value="98" max="100"></progress></span></li>
+            <li><label>node</label><span><progress value="100" max="100"></progress></span></li>
+            <li><label>mysql</label><span><progress value="90" max="100"></progress></span></li>
+            <li><label>redis</label><span><progress value="90" max="100"></progress></span></li>
           </ul>
         </div>
       </div>
@@ -55,13 +53,13 @@
           <div class="header">
             <ul>
               <li>
-                <span>南京航空航天大学金城学院 - 计算机科学与技术</span>
+                <span>南京航空航天大学 - 计算机科学与技术</span>
                 <span>2015.09 - 2019.06</span>
               </li>
             </ul>
           </div>
           <div class="user-content">
-            <p>专业排名前30，共有300多人。期间获得过多次二等奖学金和三等奖学金，以及两次国家励志奖学金，在校期间参与过学校的辩论赛、地铁志愿活动、帮助同学补习功课、大学生创新活动、自己组办过一些会议和小型的活动等等</p>
+            <p>专业排名前30。期间获得过多次二等奖学金和三等奖学金，以及两次国家励志奖学金，在校期间参与过学校的辩论赛、地铁志愿活动、帮助同学补习功课、大学生创新活动、自己组办过一些会议和小型的活动等等</p>
           </div>
         </div>
         <div class="part">
@@ -113,8 +111,6 @@
                   <li>地勤系统、SIAL旅客系统：主要实现的功能是条形码识别，机场行李的录入、行李的托运等流程性操作，canvas签字，微信公众号发送模板消息等。</li>
                   <li>掘宝排名：主要功能是通过在线用户看广告挣取广告费，主要包括前贴视频广告、激励视频广告、插屏广告等等，通过看广告发放虚拟游戏币，等级制度，分红规则，飞行体力，签到，抽奖等功能。根据一定的等级发放奖励到用户账户余额，达到一定金额用户可以提现。主要还实现了一个在线的手机网站的交易市场。（主要包括求购虚拟币和出售虚拟币的交易功能）</li>
                   <li>赤坎垃圾分类：主要实现的功能是垃圾识别，调取的是京东和百度的识别接口来识别垃圾。主要包括文字识别，图像识别和语音识别。</li>
-                  <li><a href="https://www.lanka66.com/">蓝桂汽车</a>：主要是一个汽车行业的在线视频学习网站，主要功能是有偿问答，在线视频观看，会员制度，资料下载等</li>
-                  <li><a href="http://www.haoyundaipai.com/">好运代拍</a>：主要是沪牌的代拍平台，主要功能是代拍的套餐购买以及拼团，在线案例和咨询等功能</li>
                 </ul>
               </li>
             </ul>
@@ -124,7 +120,7 @@
           <div class="header">
             <ul>
               <li>
-                <span>苏州美能华智能科技有限公司 - 前端开发工程师</span>
+                <span>苏州美能华智能科技有限公司 - 全栈开发工程师</span>
                 <span>2020.08 - 2021.02</span>
               </li>
             </ul>
@@ -144,6 +140,30 @@
               </li>
             </ul>
           </div>
+
+          <!-- 合合信息 -->
+          <div class="header">
+            <ul>
+              <li>
+                <span>上海生腾数据有限公司苏州分公司 - 后端开发工程师</span>
+                <span>2021.02 - 现在</span>
+              </li>
+            </ul>
+          </div>
+          <div class="user-content">
+            <ul>
+              <li>该公司是业内比较专业的做大数据的公司，也叫合合信息，目前已产出明星产品扫描全能王、名片全能王、启信宝，我就职于启信宝，app store 中应该可以搜索到，主要定位是企业信息查询工具。</li>
+              <li>工作内容：主要负责各个模块的后端信息整合开发。</li>
+              <li>工作流程：产品出prd之后进行需求评审，预估开发周期以及待定风险项，开发结束后自测，最后提交测试，修改bug，进行功能上线。</li>
+              <li>使用技术：nodejs，使用传统的express框架，会涉及到定时任务、redis存储、分布式锁、分布式服务注册等技术。</li>
+              <li>解决方案：首先遇到问题的时候会先自己尝试解决，遇到产品上的功能定位问题，直接寻找产品经理或是直线上级确认功能点，代码设计上的问题，会经常进行code review，在review的过程中找到自己的不足点并加以改进。</li>
+              <li>代表项目：
+                <ul class="inner-project">
+                  <li>启信宝：是一款快速精准的企业信息查询工具，帮助用户快速了解合作公司，预防潜在风险，获得商机等。</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="part">
           <div class="head">
@@ -153,16 +173,16 @@
           <div class="header">
             <ul>
               <li>
-                <span>前端开发工程师</span>
-                <span>期望薪资：12k</span>
+                <span>全栈开发工程师</span>
+                <span>期望薪资：25k</span>
               </li>
             </ul>
           </div>
           <div class="user-content">
             <ul>
-              <li>常用开发工具：vscode，git，gitee，github，StackOverflow，microsoft todo</li>
-              <li>常用技术：html5，css3，JavaScript，vue.js，typescript，django等</li>
-              <li>熟悉技术：webpack，react.js，node.js</li>
+              <li>常用开发工具：vscode,git,github desktop,postman,redis desktop,navicat,windows terminal,xshell,xftp</li>
+              <li>常用技术：JavaScript, nodejs, express, mysql, redis等</li>
+              <li>熟悉技术：webpack, vue.js, react.js, eggjs, django</li>
             </ul>
           </div>
         </div>
